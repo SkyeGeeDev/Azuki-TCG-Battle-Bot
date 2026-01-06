@@ -189,7 +189,7 @@ export const allCards = [
             "keywords": ["Charge", "In Garden Only Ability"]
         },
         "traits": ["Steelborn"],
-        "image": "https://static-content.azuki.com/tcg/card_art/S1-AZK01-011_Rooftop-Hunter_E_C_die.jpg",
+        "image": "https://static-content.azuki.com/tcg/card_art/S1-AZK01-012_Ed_E_C_die.jpg",
     },
     {
         "id": "AZK01-013",
@@ -237,7 +237,7 @@ export const allCards = [
             "keywords": ["When Attacking"]
         },
         "traits": ["Invigorate", "Samurai"],
-        "image": "https://static-content.azuki.com/tcg/card_art/S1-AZK01-014_Trade-Guild-Cavalry_E_R_die.jpg",
+        "image": "https://static-content.azuki.com/tcg/card_art/S1-AZK01-015_Mo_E_SR_die.jpg",
     },
     {
         "id": "AZK01-016",
