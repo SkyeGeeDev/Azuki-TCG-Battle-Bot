@@ -3,6 +3,7 @@
 
 import { allCards } from "../data/cards";
 import { useDeckStore } from "../store/useDeckStore";
+import CardTile from "../src/CardTile";
 
 export default function Home() {
   // Grab the data and functions from our store
@@ -15,21 +16,21 @@ export default function Home() {
       <div className="w-2/3 p-6 overflow-y-auto h-screen">
         <h1 className="text-3xl font-bold mb-6">Azuki Deck Builder</h1>
         
-        {/* The Grid of Cards */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {allCards.map((card) => (
-            <div 
-              key={card.id} 
-              onClick={() => addToDeck(card)}
-              className="cursor-pointer hover:scale-105 transition-transform border border-gray-700 rounded-lg overflow-hidden"
-            >
-              <img src={card.image} alt={card.name} className="w-full h-auto" />
-              <div className="p-2 bg-gray-800">
-                <p className="font-bold text-sm">{card.name}</p>
-                <p className="text-xs text-gray-400">Cost: {card.cost} | {card.element}</p>
-              </div>
-            </div>
-          ))}
+          {/* SAFETY CHECK: The '?' checks if allCards exists before mapping */}
+          {allCards?.map((card) => {
+             // SAFETY CHECK: If a blank card exists in data, skip it
+             if (!card || !card.id) return null;
+
+             return (
+               // WE USE THE COMPONENT HERE
+               <CardTile 
+                 key={card.id} 
+                 card={card} 
+                 onAdd={(c, v) => addToDeck(c, v)} 
+               />
+             );
+          })}
         </div>
       </div>
 
@@ -42,16 +43,19 @@ export default function Home() {
           </span>
         </div>
 
-        {/* Deck List - Scrollable Area */}
+        {/* Deck List */}
         <div className="flex-1 overflow-y-auto space-y-2">
           {deck.length === 0 ? (
             <p className="text-gray-500 italic">Click cards on the left to add them.</p>
           ) : (
-            // We map through unique cards to show counts (advanced but cleaner)
-            [...new Set(deck.map(c => c.id))].map(uniqueId => {
-               const card = deck.find(c => c.id === uniqueId);
-               const count = deck.filter(c => c.id === uniqueId).length;
+            // Get unique IDs to group duplicates
+            [...new Set(deck.map(c => c.parentId))].map(uniqueId => {
+               // We find the first card in the deck with this ID to get the name
+               const card = deck.find(c => c.parentId === uniqueId);
+               const count = deck.filter(c => c.parentId === uniqueId).length;
                
+               if (!card) return null; // Safety check
+
                return (
                  <div key={uniqueId} className="flex justify-between items-center bg-gray-700 p-3 rounded group">
                    <div>
@@ -59,6 +63,7 @@ export default function Home() {
                      <span>{card.name}</span>
                    </div>
                    <button 
+                     // We remove by Parent ID (removes one instance)
                      onClick={() => removeFromDeck(uniqueId)}
                      className="text-red-400 hover:text-red-200 text-sm"
                    >
@@ -70,7 +75,6 @@ export default function Home() {
           )}
         </div>
 
-        {/* Action Buttons */}
         <div className="mt-4 pt-4 border-t border-gray-600">
           <button 
             onClick={clearDeck}

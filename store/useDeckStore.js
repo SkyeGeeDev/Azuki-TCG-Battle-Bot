@@ -1,36 +1,70 @@
-// src/store/useDeckStore.js
 import { create } from 'zustand';
+import { persist } from 'zustand/middleware';
 
-export const useDeckStore = create((set) => ({
-  deck: [], // This array holds the cards the user picked
+export const useDeckStore = create(
+  persist(
+    (set) => ({
+      deck: [],
+      customSkins: {}, // Stores user-added alt arts
 
-  // ACTION: Add a card to the deck
-  addToDeck: (card) => set((state) => {
-    // 1. Check if deck is full (Example: Max 50 cards)
-    if (state.deck.length >= 50) return state;
+      // ACTION: Add a card (handles Variants and Max Limits)
+      addToDeck: (cardData, variantData) => set((state) => {
+        // 1. Check Max Deck Size
+        if (state.deck.length >= 50) return state;
 
-    // 2. Check how many copies of this card are already in the deck
-    const copies = state.deck.filter((c) => c.id === card.id).length;
-    if (copies >= 4) {
-      alert("You can only have 4 copies of a card!");
-      return state; 
+        // 2. Check Max Copies (4 per card)
+        // We look at 'parentId' to ensure they don't add 4 Standard + 4 Alt Arts
+        const copies = state.deck.filter((c) => c.parentId === cardData.id).length;
+        if (copies >= 4) {
+          alert("You can only have 4 copies of a card!");
+          return state;
+        }
+
+        // 3. Create the Deck Entry
+        const newCardEntry = {
+          uniqueId: Date.now() + Math.random(), // Unique ID for this specific card instance
+          parentId: cardData.id,     // "AZK01-001"
+          variantId: variantData?.id || "standard",
+          name: cardData.name,
+          image: variantData?.image || cardData.image, // Fallback if variant is missing
+          cost: cardData.cost,
+          rarity: variantData?.rarity || cardData.rarity
+        };
+
+        return { deck: [...state.deck, newCardEntry] };
+      }),
+
+      // ACTION: Remove a card (The missing function!)
+      removeFromDeck: (targetParentId) => set((state) => {
+        // 1. Find the index of the *first* card that matches the ID the user clicked
+        const index = state.deck.findIndex((c) => c.parentId === targetParentId);
+        
+        // If not found, do nothing
+        if (index === -1) return state;
+
+        // 2. Create a copy of the deck and remove that one item
+        const newDeck = [...state.deck];
+        newDeck.splice(index, 1);
+
+        return { deck: newDeck };
+      }),
+
+      // ACTION: Clear the whole deck
+      clearDeck: () => set({ deck: [] }),
+
+      // ACTION: Add Custom Skin (Optional feature we discussed)
+      addCustomSkin: (cardId, newSkin) => set((state) => {
+        const existingSkins = state.customSkins[cardId] || [];
+        return {
+          customSkins: {
+            ...state.customSkins,
+            [cardId]: [...existingSkins, newSkin]
+          }
+        };
+      }),
+    }),
+    {
+      name: 'azuki-deck-storage', // Saves to localStorage
     }
-
-    // 3. Add the card
-    return { deck: [...state.deck, card] };
-  }),
-
-  // ACTION: Remove a card from the deck
-  removeFromDeck: (cardId) => set((state) => {
-    // Find the index of the first card with this ID and remove it
-    const index = state.deck.findIndex((c) => c.id === cardId);
-    if (index === -1) return state;
-
-    const newDeck = [...state.deck];
-    newDeck.splice(index, 1);
-    return { deck: newDeck };
-  }),
-  
-  // ACTION: Clear deck
-  clearDeck: () => set({ deck: [] }),
-}));
+  )
+);
