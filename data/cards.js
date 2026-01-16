@@ -1165,4 +1165,25 @@ export const allCards = [
             }
         ],
     },
+    {
+        "id": "AZK01-056",
+        "name": "Glass Blower, Hokuto",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 1,
+        "attack": 1,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Artisan", "Firemancer"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-056_Glass-Blower-Hokuto_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
 ]
