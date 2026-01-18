@@ -1186,4 +1186,471 @@ export const allCards = [
             }
         ],
     },
+    {
+        "id": "AZK01-057",
+        "name": "Lounge Siren, Saiko",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 1,
+        "attack": 1,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["In Garden Only Ability", "Start of Your Turn"]
+        },
+        "traits": ["Scorchweaver"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-057_Lounge-Siren-Saeko_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-058",
+        "name": "Black Jade Warlord",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 2,
+        "attack": 2,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["After Attacking"]
+        },
+        "traits": ["Black Jade", "Blazerker", "Invigorate"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-058_Black-Jade-Warlord_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-059",
+        "name": "Spice",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 2,
+        "attack": 1,
+        "hp": 2,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["Once/Turn"]
+        },
+        "traits": ["Chef", "Pyreskin", "Red Panda"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-059_Spice_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-060",
+        "name": "Scarlett",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 5,
+        "attack": 3,
+        "hp": 2,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["Charge", "When Attacking"]
+        },
+        "traits": ["Blazerker"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-060_Scarlett_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-061",
+        "name": "Fire Brand Renji",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 3,
+        "attack": 1,
+        "hp": 3,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["Once/Turn"]
+        },
+        "traits": ["Pyreskin"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-061_Firebrand-Renji_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-062",
+        "name": "Pekiro",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 3,
+        "attack": 2,
+        "hp": 1,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["Once/Turn"]
+        },
+        "traits": ["Red Panda","Pyreskin"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-062_Pekiro_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-063",
+        "name": "Enzo",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 6,
+        "attack": 3,
+        "hp": 3,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Chef","Scorchweaver"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-063_Enzo_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-064",
+        "name": "Zero",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 8,
+        "attack": 7,
+        "hp": 7,
+        "gate": 2,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": ["Scorchweaver", "Black Jade"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-064_Zero_E_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            },
+            {
+                image:"https://static-content.azuki.com/tcg/card_art/AZK01-064A_Zero_E_SR_Die.jpg",
+                rarity: "SR*",
+                label: "Alt Art"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-065",
+        "name": "Fire Orb",
+        "category": "Spell",
+        "element": "Fire",
+        "cost": 4,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Orb","Scorchweaver"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-065_Fire-Orb_S_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-065",
+        "name": "Firestorm",
+        "category": "Spell",
+        "element": "Fire",
+        "cost": 5,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Scorchweaver"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-066_Firestorm_S_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-088",
+        "name": "Pulled Under",
+        "category": "Spell",
+        "element": "Water",
+        "cost": 6,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Watercrafting"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-088_Pulled-Under_S_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-089",
+        "name": "Mizuryuu Fist Master",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 7,
+        "attack": 5,
+        "hp": 5,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["In Alley Only Ability", "Main"]
+        },
+        "traits": ["Frog", "Mizuryuu", "Watercrafting"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-089_Mizuryuu-Fist-Master_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-090",
+        "name": "Priestess of the Mists",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 5,
+        "attack": 3,
+        "hp": 3,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Priestess", "Wavecaller"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-090_Priestess-of-the-Mists_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-091",
+        "name": "Bubble Adept",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 2,
+        "attack": 2,
+        "hp": 1,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["In Garden Only Ability", "Response"]
+        },
+        "traits": ["Aquashield", "Driftward"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-091_Bubble-Adept_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-092",
+        "name": "Lotus of Reflection",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 2,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Lotus", "Wavecaller"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-092_Lotus-of-Reflection_S_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-093",
+        "name": "Naiyara the Tideweaver",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 7,
+        "attack": 4,
+        "hp": 4,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Downcurrent", "Mizuryuu"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-093_Naiyara-the-Tideweaver_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-094",
+        "name": "Hidden Dagger",
+        "category": "Weapon",
+        "element": "Lightning",
+        "cost": 1,
+        "attack": 1,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Response"]
+        },
+        "traits": ["Dagger", "Shadowfang"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-094_Hidden-Dagger_W_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-095",
+        "name": "Stormglass Katana",
+        "category": "Weapon",
+        "element": "Lightning",
+        "cost": 4,
+        "attack": 3,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": ["Riftwalk", "Sword"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-095_Stormglass-Katana_W_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-096",
+        "name": "Ninpō: Thunderstep",
+        "category": "Spell",
+        "element": "Lightning",
+        "cost": 2,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Response"]
+        },
+        "traits": ["Voltguard"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-096_Ninpo-Thunderstep_S_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-097",
+        "name": "Black Jade Pawnbroker",
+        "category": "Enitity",
+        "element": "Lightning",
+        "cost": 2,
+        "attack": 1,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Black Jade", "Merchant", "Steelborn"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-097_Black-Jade-Pawnbroker_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-098",
+        "name": "Arms Dealer, Kin",
+        "category": "Enitity",
+        "element": "Lightning",
+        "cost": 4,
+        "attack": 2,
+        "hp": 2,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Merchant", "Steelborn"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-098_Arms-Dealer-Kin_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-099",
+        "name": "Raiko's Wrath, Shin",
+        "category": "Enitity",
+        "element": "Lightning",
+        "cost": 7,
+        "attack": 4,
+        "hp": 4,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Shockcoil", "Stormcaller", "Tiger"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-099_Raikos-Wrath-Shin_E_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            }
+        ],
+    },
 ]
