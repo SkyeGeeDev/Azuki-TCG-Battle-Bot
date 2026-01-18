@@ -1381,7 +1381,7 @@ export const allCards = [
         ],
     },
     {
-        "id": "AZK01-065",
+        "id": "AZK01-066",
         "name": "Firestorm",
         "category": "Spell",
         "element": "Fire",
