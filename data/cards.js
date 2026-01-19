@@ -1653,4 +1653,46 @@ export const allCards = [
             }
         ],
     },
+    {
+        "id": "AZK01-100",
+        "name": "Raizan's Riposte",
+        "category": "Spell",
+        "element": "Lightning",
+        "cost": 2,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Response"]
+        },
+        "traits": ["Raizan", "Steelborn"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-100_Raizans-Riposte_S_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-101",
+        "name": "Sand Stands Still",
+        "category": "Spell",
+        "element": "Earth",
+        "cost": 3,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main", "Response"]
+        },
+        "traits": ["Earthwarden"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-100_Raizans-Riposte_S_C_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            }
+        ],
+    },
 ]
