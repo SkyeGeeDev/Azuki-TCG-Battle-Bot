@@ -1905,4 +1905,731 @@ export const allCards = [
             }
         ],
     },
+    {
+        "id": "AZK01-112",
+        "name": "Enrai Shakunetsu",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 6,
+        "attack": 4,
+        "hp": 3,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Blazerker", "Loneflame"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-112_Enrai-Shakunetsu_E_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-113",
+        "name": "Cinderwake Pursuer",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 2,
+        "attack": 2,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Blazerker", "Cinderwake"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-113_Cinderwake-Pursuer_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-114",
+        "name": "Omen Peddler",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 3,
+        "attack": 2,
+        "hp": 1,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Elder", "Scorchweaver"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-114_Omen-Peddler_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-115",
+        "name": "Crazed Arsonist",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 2,
+        "attack": 1,
+        "hp": 2,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["When Attacking", "When Sacrified"]
+        },
+        "traits": ["Scorchweaver", "Wildfire"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-115_Crazed-Arsonist_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-116",
+        "name": "Tenmoku Daiki",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 4,
+        "attack": 3,
+        "hp": 2,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["Charge", "On Play"]
+        },
+        "traits": ["Blazerker", "Brawler"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-116_Tenmoku-Daiki_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-117",
+        "name": "Ignition Pact",
+        "category": "Spell",
+        "element": "Fire",
+        "cost": 1,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Blazerker"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-117_Ignition-Pact_S_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-118",
+        "name": "Bandit Ringleader",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 4,
+        "attack": 2,
+        "hp": 2,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Bandit", "Scorchweaver"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-118_Bandit-Ringleader_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZP-001",
+        "name": "IKZ Token",
+        "category": "IKZ Token",
+        "element": null,
+        "cost": null,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": [],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/AZP-001_IKZ!_IKZ-Token-AX-Participation_Die.jpg",
+                rarity: "IKZ",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZP-002",
+        "name": "IKZ Token",
+        "category": "IKZ Token",
+        "element": null,
+        "cost": null,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": [],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/AZP-002_IKZ!_IKZ-Token-AX-Winner_Die.jpg",
+                rarity: "IKZ",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "IKZ-001",
+        "name": "IKZ",
+        "category": "IKZ",
+        "element": null,
+        "cost": null,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": [],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-IKZ-001_IKZ!_IKZ_die.jpg",
+                rarity: "IKZ",
+                label: "Standard"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/IKZ-001A_IKZ!_IKZ_Die.jpg",
+                rarity: "IKZ",
+                label: "Alt Art"
+            }
+        ],
+    },
+    {
+        "id": "IKZ-002",
+        "name": "IKZ Token",
+        "category": "IKZ Token",
+        "element": null,
+        "cost": null,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": [],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-IKZ-002_IKZ!_IKZ-Token_die.jpg",
+                rarity: "IKZ",
+                label: "Standard"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/IKZ-002A_IKZ!_IKZ-Token_Die.jpg",
+                rarity: "IKZ",
+                label: "Alt Art"
+            }
+        ],
+    },
+    {
+        "id": "STT01-001",
+        "name": "Raizan",
+        "category": "Leader",
+        "element": "Lightning",
+        "cost": null,
+        "attack": 0,
+        "hp": 20,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Once/Turn"]
+        },
+        "traits": ["Raizan"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-001_Raizan_L_L_die.jpg",
+                rarity: "L",
+                label: "Standard"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/STT01-001A_Raizan_L_AA_Die.jpg",
+                rarity: "L*",
+                label: "Alt Art"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-001AX2_Raizan_L_INV26-SECOND_die.jpg",
+                rarity: "L*",
+                label: "Invitational 2026 - Second Place"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-001AX1_Raizan_L_INV26-WINNER_die.jpg",
+                rarity: "L*",
+                label: "Invitational 2026 - Winner"
+            },
+        ],
+    },
+    {
+        "id": "STT01-002",
+        "name": "Surge Gate",
+        "category": "Gate",
+        "element": "Lightning",
+        "cost": null,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": [""]
+        },
+        "traits": ["Gate"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-002_Surge-Gate_G_G_die.jpg",
+                rarity: "G",
+                label: "Standard"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/STT01-002A_Surge-Gate_G_die.jpg",
+                rarity: "G*",
+                label: "Alt Art"
+            }
+        ],
+    },
+    {
+        "id": "STT01-003",
+        "name": "Crate Rat Kurobo",
+        "category": "Entity",
+        "element": "Lightning",
+        "cost": 1,
+        "attack": 1,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Beanz", "Black Jade"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-003_Crate-Rat-Kurobo_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-004",
+        "name": "Black Jade Recruit",
+        "category": "Entity",
+        "element": "Neutral",
+        "cost": 1,
+        "attack": 1,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Black Jade", "Dawnling"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-004_Black-Jade-Recruit_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-005",
+        "name": "Alpine Prowler",
+        "category": "Entity",
+        "element": "Lightning",
+        "cost": 2,
+        "attack": 1,
+        "hp": 1,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["In Alley Only Ability", "Main"]
+        },
+        "traits": ["Bandit"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-005_Alpine-Prowler_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-006",
+        "name": "Silver Current, Haruhi",
+        "category": "Entity",
+        "element": "Lightning",
+        "cost": 2,
+        "attack": 1,
+        "hp": 2,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["Once/Turn", "When Attacking"]
+        },
+        "traits": ["Elder", "Monk"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-006_Silver-Current-Haruhi_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-007",
+        "name": "Alley Guy",
+        "category": "Entity",
+        "element": "Neutral",
+        "cost": 2,
+        "attack": 1,
+        "hp": 2,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Alley Dweller", "Dawnling"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-007_Alley-Guy_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-008",
+        "name": "Black Jade Crewleader",
+        "category": "Entity",
+        "element": "Lightning",
+        "cost": 3,
+        "attack": 2,
+        "hp": 2,
+        "gate": 1,
+        "mechanics": {
+            "keywords": [""]
+        },
+        "traits": ["Black Jade", "Steelborn"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-008_Black-Jade-Crewleader_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-009",
+        "name": "Mastersmith Yamada",
+        "category": "Entity",
+        "element": "Lightning",
+        "cost": 4,
+        "attack": 2,
+        "hp": 2,
+        "gate": 2,
+        "mechanics": {
+            "keywords": [""]
+        },
+        "traits": ["Steelborn"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-009_Mastersmith-Yamada_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-010",
+        "name": "Indra",
+        "category": "Entity",
+        "element": "Lightning",
+        "cost": 5,
+        "attack": 3,
+        "hp": 2,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["Charge"]
+        },
+        "traits": ["Monk", "Steelborn"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-010_Indra_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-011",
+        "name": "Raizan",
+        "category": "Entity",
+        "element": "Lightning",
+        "cost": 6,
+        "attack": 4,
+        "hp": 3,
+        "gate": 4,
+        "mechanics": {
+            "keywords": [""]
+        },
+        "traits": ["Raizan", "Steelborn"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-011_Raizan_E_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/STT01-011A_Raizan_E_SR_die.jpg",
+                rarity: "SR*",
+                label: "Alt Art"
+            }
+        ],
+    },
+    {
+        "id": "STT01-012",
+        "name": "Lightning Shuriken",
+        "category": "Weapon",
+        "element": "Lightning",
+        "cost": 1,
+        "attack": 1,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["When Attacking"]
+        },
+        "traits": ["Shadowfang", "Shuriken"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-012_Lightning-Shuriken_W_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-013",
+        "name": "Black Jade Dagger",
+        "category": "Weapon",
+        "element": "Neutral",
+        "cost": 1,
+        "attack": 1,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Black Jade", "Dagger"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-013_Black-Jade-Dagger_W_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-014",
+        "name": "Tenshin",
+        "category": "Weapon",
+        "element": "Neutral",
+        "cost": 2,
+        "attack": 2,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Sword"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-014_Tenshin_W_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-015",
+        "name": "Tenraku",
+        "category": "Weapon",
+        "element": "Neutral",
+        "cost": 3,
+        "attack": 3,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": [""]
+        },
+        "traits": ["Sword"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-015_Tenraku_W_UC_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT01-016",
+        "name": "Ikazhuchi",
+        "category": "Weapon",
+        "element": "Lightning",
+        "cost": 4,
+        "attack": 4,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["When Attacking"]
+        },
+        "traits": ["Sword"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-016_Ikazuchi_W_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/STT01-016A_Ikazuchi_W_SR_die.jpg",
+                rarity: "SR*",
+                label: "Alt Art"
+            }
+        ],
+    },
+    {
+        "id": "STT01-017",
+        "name": "Lightning Orb",
+        "category": "Spell",
+        "element": "Lightning",
+        "cost": 1,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Response"]
+        },
+        "traits": ["Orb", "Stormcaller"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT01-017_Lightning-Orb_S_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-001",
+        "name": "Shao",
+        "category": "Leader",
+        "element": "Water",
+        "cost": null,
+        "attack": 0,
+        "hp": 20,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Once/Turn", "Response"]
+        },
+        "traits": ["Shao"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-001_Shao_L_L_die.jpg",
+                rarity: "L",
+                label: "Standard"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/STT02-001A_Shao_L_AA_Die.jpg",
+                rarity: "L*",
+                label: "Alt Art"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-001AX_Shao_L_INV26-TOP8_die.jpg",
+                rarity: "L*",
+                label: "Invitational 2026 - Top 8"
+            },
+        ],
+    },
+    {
+        "id": "STT02-002",
+        "name": "Hydromancy Gate",
+        "category": "Gate",
+        "element": "Water",
+        "cost": null,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": [""]
+        },
+        "traits": ["Gate"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-002_Hydromancy-Gate_G_G_die.jpg",
+                rarity: "G",
+                label: "Standard"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/STT02-002A_Hydromancy-Gate_G_die.jpg",
+                rarity: "G*",
+                label: "Alt Art"
+            }
+        ],
+    },
+    {
+        "id": "STT02-003",
+        "name": "Hayabusa Itto",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 1,
+        "attack": 1,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Elder", "Sushi Chef"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-003_Hayabusa-Itto_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-004",
+        "name": "Rei",
+        "category": "Entity",
+        "element": "Neutral",
+        "cost": 1,
+        "attack": 1,
+        "hp": 2,
+        "gate": 0,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": ["Dawnling"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-004_Rei_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
 ]
