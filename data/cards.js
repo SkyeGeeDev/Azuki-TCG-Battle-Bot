@@ -1695,4 +1695,214 @@ export const allCards = [
             }
         ],
     },
+    {
+        "id": "AZK01-102",
+        "name": "Oathstone",
+        "category": "Spell",
+        "element": "Earth",
+        "cost": 2,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Response", "Carapace 1"]
+        },
+        "traits": ["Obsidian"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-102_Oathstone_S_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-103",
+        "name": "Dropline Station",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 5,
+        "attack": 0,
+        "hp": 4,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["In Garden Only Ability"]
+        },
+        "traits": ["Earthfury"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-103_Dropline-Station_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-104",
+        "name": "Sanzu's Envoy",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 6,
+        "attack": 4,
+        "hp": 4,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Stonemend", "Verdant"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-104_Sanzus-Envoy_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-105",
+        "name": "Prickly Tumbleweed",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 4,
+        "attack": 1,
+        "hp": 3,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["In Garden Only Ability" , "Main"]
+        },
+        "traits": ["Earthfury"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-105_Prickly-Tumbleweed_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-106",
+        "name": "Lord of Sands, Ōsunanami",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 10,
+        "attack": 6,
+        "hp": 6,
+        "gate": 3,
+        "mechanics": {
+            "keywords": [""]
+        },
+        "traits": ["Colossal", "Sandstrider"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-106_Lord-of-Sands-Osunanami_E_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-107",
+        "name": "Offering to Stillstone",
+        "category": "Spell",
+        "element": "Earth",
+        "cost": 0,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Verdant"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-107_Offering-to-Stillstone_S_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-108",
+        "name": "Crushing Weight",
+        "category": "Spell",
+        "element": "Earth",
+        "cost": 5,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Earthfury"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-108_Crushing-Weight_S_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-109",
+        "name": "Rock Sloth",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 6,
+        "attack": 3,
+        "hp": 4,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["Carapace 1"]
+        },
+        "traits": ["Obsidian", "Sloth"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-109_Rock-Sloth_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-110",
+        "name": "Gluttonous Devourer, Kasha",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 4,
+        "attack": 2,
+        "hp": 2,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["When Attacking"]
+        },
+        "traits": ["Loneflame", "Red Panda"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-110_Gluttonous-Devourer-Kasha_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "AZK01-111",
+        "name": "Black Jade Decoy",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 3,
+        "attack": 2,
+        "hp": 2,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["In Alley Only Ability", "Main"]
+        },
+        "traits": ["Ashveil", "Black Jade", "Shikigami"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-AZK01-111_Black-Jade-Decoy_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
 ]
