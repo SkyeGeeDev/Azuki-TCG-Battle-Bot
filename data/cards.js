@@ -2632,4 +2632,628 @@ export const allCards = [
             }
         ],
     },
+    {
+        "id": "STT02-005",
+        "name": "Hayabusa Saburo",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 1,
+        "attack": 1,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Sushi Chef"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-005_Hayabusa-Saburo_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-006",
+        "name": "Foamback Crab",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 2,
+        "attack": 0,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["Defender"]
+        },
+        "traits": ["Crab", "Driftward", "Rippleborn"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-006_Foamback-Crab_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-007",
+        "name": "Benzai the Merchant",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 2,
+        "attack": 1,
+        "hp": 2,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Frog", "Merchant", "Wavecaller"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-007_Benzai-the-Merchant_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-008",
+        "name": "Serene Fist, Misaki",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 2,
+        "attack": 2,
+        "hp": 1,
+        "gate": 0,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": ["Driftward"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-008_Serene-Fist-Misaki_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-009",
+        "name": "Aya",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 3,
+        "attack": 1,
+        "hp": 2,
+        "gate": 1,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": ["Driftward"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-009_Aya_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-010",
+        "name": "Selis of the Shore",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 3,
+        "attack": 1,
+        "hp": 3,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["In Garden Only Ability"]
+        },
+        "traits": ["Wavecaller"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-010_Selis-of-the-Shore_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-011",
+        "name": "Bubblemancer",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 3,
+        "attack": 2,
+        "hp": 2,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["In Garden Only Ability", "Main"]
+        },
+        "traits": ["Driftward"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-011_Bubblemancer_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-012",
+        "name": "Young Shao",
+        "category": "Entity",
+        "element": "Neutral",
+        "cost": 4,
+        "attack": 2,
+        "hp": 2,
+        "gate": 2,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": ["Dawnling", "Shao"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-012_Young-Shao_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-013",
+        "name": "Mizuki",
+        "category": "Entity",
+        "element": "Water",
+        "cost": 5,
+        "attack": 3,
+        "hp": 4,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Wavecaller"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-013_Mizuki_E_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/STT02-013A_Mizuki_E_SR_die.jpg",
+                rarity: "SR*",
+                label: "Alt Art"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/STT02-013ASN_Mizuki_E_SR_die.jpg",
+                rarity: "SR**",
+                label: "Signature"
+            },
+        ],
+    },
+    {
+        "id": "STT02-014",
+        "name": "Chilling Water",
+        "category": "Spell",
+        "element": "Water",
+        "cost": 1,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Subzero", "Watercrafting"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-014_Chilling-Water_S_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-015",
+        "name": "Commune with Water",
+        "category": "Spell",
+        "element": "Water",
+        "cost": 2,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Response"]
+        },
+        "traits": ["Watercrafting"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-015_Commune-with-Water_S_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-016",
+        "name": "Water Orb",
+        "category": "Spell",
+        "element": "Water",
+        "cost": 1,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Response"]
+        },
+        "traits": ["Orb", "Watercrafting"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-016_Water-Orb_S_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT02-017",
+        "name": "Shao's Perseverance",
+        "category": "Spell",
+        "element": "Water",
+        "cost": 6,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Shao", "Watercrafting"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT02-017_Shaos-Perseverance_S_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            },
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/STT02-017A_Shaos-Perseverance_S_SR_die.jpg",
+                rarity: "SR*",
+                label: "Alt Art"
+            }
+        ],
+    },
+    {
+        "id": "STT03-001",
+        "name": "Bobu",
+        "category": "Leader",
+        "element": "Earth",
+        "cost": null,
+        "attack": 0,
+        "hp": 20,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Once/Turn", "Main"]
+        },
+        "traits": ["Bobu", "Brewmaster", "Stonemend"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-001_Bobu_L_L_die.jpg",
+                rarity: "L",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-002",
+        "name": "Stonehaven Gate",
+        "category": "Gate",
+        "element": "Earth",
+        "cost": null,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": [""]
+        },
+        "traits": ["Gate"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-002_Stonehaven-Gate_G_G_die.jpg",
+                rarity: "G",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-003",
+        "name": "Koyama Farm Potter",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 1,
+        "attack": 1,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Artisan", "Dusttracker"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-003_Koyama-Farm-Potter_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-004",
+        "name": "Sloth Scarecrow",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 1,
+        "attack": 0,
+        "hp": 1,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["Defender", "Main"]
+        },
+        "traits": ["Earthwarden", "Stonemend"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-004_Sloth-Scarecrow_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-005",
+        "name": "Wobbly Cabbage Cart",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 2,
+        "attack": 0,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["When Destroyed"]
+        },
+        "traits": ["Earthfury"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-005_Wobbly-Cabbage-Cart_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-006",
+        "name": "Cactus Farmer",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 2,
+        "attack": 2,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["When Destroyed"]
+        },
+        "traits": ["Earthwarden"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-006_Cactus-Farmer_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-007",
+        "name": "Koyama Farm Caretaker",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 3,
+        "attack": 1,
+        "hp": 1,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["In Garden Only Ability"]
+        },
+        "traits": ["Farmer", "Verdant"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-007_Koyama-Farm-Caretaker_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-008",
+        "name": "Midnight Courier",
+        "category": "Entity",
+        "element": "Neutral",
+        "cost": 3,
+        "attack": 2,
+        "hp": 2,
+        "gate": 2,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": ["Strider"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-008_Midnight-Courier_E_C_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-010",
+        "name": "Shroommancer",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 4,
+        "attack": 2,
+        "hp": 2,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["Once/Turn"]
+        },
+        "traits": ["Stonemend"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-010_Shroommancer_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-011",
+        "name": "Koyama Farm Plowman",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 5,
+        "attack": 2,
+        "hp": 3,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Earthwarden", "Farmer", "Obsidian"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-011_Koyama-Farm-Plowman_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-012",
+        "name": "Miharu of the White Bloom",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 6,
+        "attack": 3,
+        "hp": 3,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["On Play", "In Garden Only Ability", "Once/Turn"]
+        },
+        "traits": ["Stonemend", "Verdant"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-012_Miharu-of-the-White-Bloom_E_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-013",
+        "name": "Stone Masked Ancient",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 7,
+        "attack": 3,
+        "hp": 6,
+        "gate": 3,
+        "mechanics": {
+            "keywords": ["In Garden Only Ability", "Taunt"]
+        },
+        "traits": ["Obsidian", "Sandstrider"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-013_Stone-Masked-Ancient_E_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-014",
+        "name": "Sandcoil Python",
+        "category": "Entity",
+        "element": "Earth",
+        "cost": 8,
+        "attack": 6,
+        "hp": 6,
+        "gate": 4,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Rootbane", "Sandstrider", "Verdant"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-014_Sandcoil-Python_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-015",
+        "name": "Jar of Beans",
+        "category": "Spell",
+        "element": "Earth",
+        "cost": 4,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Stonemend"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-015_Jar-of-Beans_S_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-016",
+        "name": "Quicksand",
+        "category": "Spell",
+        "element": "Earth",
+        "cost": 5,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Earthfury"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-016_Quicksand_S_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT03-017",
+        "name": "Sprout of Fortune",
+        "category": "Spell",
+        "element": "Earth",
+        "cost": 3,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Verdant"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT03-017_Sprout-of-Fortune_S_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
 ]
