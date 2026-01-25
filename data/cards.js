@@ -3256,4 +3256,151 @@ export const allCards = [
             }
         ],
     },
+    {
+        "id": "STT04-001",
+        "name": "Zero",
+        "category": "Leader",
+        "element": "Fire",
+        "cost": null,
+        "attack": 0,
+        "hp": 20,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Once/Turn", "Main"]
+        },
+        "traits": ["Black Jade", "Scorchweaver"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-001_Zero_L_L_die.jpg",
+                rarity: "L",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-002",
+        "name": "Ragefire Gate",
+        "category": "Gate",
+        "element": "Fire",
+        "cost": null,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": ["Gate"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-002_Ragefire-Gate_G_G_die.jpg",
+                rarity: "G",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-003",
+        "name": "Cinderwake Seer",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 1,
+        "attack": 2,
+        "hp": 2,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["Start of Each Turn"]
+        },
+        "traits": ["Blazerker", "Cinderwake"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-003_Cinderwake-Seer_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-004",
+        "name": "Fanatic Kindler",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 1,
+        "attack": 1,
+        "hp": 2,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Scorchweaver"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-004_Fanatic-Kindler_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-005",
+        "name": "Ruby",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 1,
+        "attack": 1,
+        "hp": 1,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["On Play"]
+        },
+        "traits": ["Ashveil"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-005_Ruby_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-006",
+        "name": "Wolf Cub",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 2,
+        "attack": 1,
+        "hp": 2,
+        "gate": 1,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": ["Dawnling", "Wolf"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-006_Wolf-Cub_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-007",
+        "name": "Enraged Howler",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 2,
+        "attack": 1,
+        "hp": 2,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["Once/Turn"]
+        },
+        "traits": ["Pyreskin", "Wolf"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-007_Enraged-Howler_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
 ]
