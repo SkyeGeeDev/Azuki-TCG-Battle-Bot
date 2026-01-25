@@ -3365,7 +3365,7 @@ export const allCards = [
         "id": "STT04-006",
         "name": "Wolf Cub",
         "category": "Entity",
-        "element": "Fire",
+        "element": "Neutral",
         "cost": 2,
         "attack": 1,
         "hp": 2,
@@ -3399,6 +3399,216 @@ export const allCards = [
             {
                 image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-007_Enraged-Howler_E_C_die.jpg",
                 rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-008",
+        "name": "Lady Emberheart",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 3,
+        "attack": 2,
+        "hp": 2,
+        "gate": 0,
+        "mechanics": {
+            "keywords": ["Once/Turn"]
+        },
+        "traits": ["Crimsondrift"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-008_Lady-Emberheart_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-009",
+        "name": "Cinderwake Ritualist",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 3,
+        "attack": 1,
+        "hp": 2,
+        "gate": 2,
+        "mechanics": {
+            "keywords": ["In Garden Only Ability", "Once/Turn"]
+        },
+        "traits": ["Cinderwake", "Pyreskin"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-009_Cinderwake-Ritualist_E_R_die.jpg",
+                rarity: "R",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-010",
+        "name": "Reckless Tinkerer",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 3,
+        "attack": 1,
+        "hp": 2,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["Charge", "On Play"]
+        },
+        "traits": ["Blazerker", "Elder", "Pyreskin"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-010_Reckless-Tinkerer_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-011",
+        "name": "Scorchland Raven",
+        "category": "Entity",
+        "element": "Neutral",
+        "cost": 4,
+        "attack": 2,
+        "hp": 2,
+        "gate": 2,
+        "mechanics": {
+            "keywords": []
+        },
+        "traits": ["Bird"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-011_Scorchland-Raven_E_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-012",
+        "name": "Spiteful Raider",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 4,
+        "attack": 3,
+        "hp": 2,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["Once/Turn"]
+        },
+        "traits": ["Bandit", "Pyreskin"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-012_Spiteful-Raider_E_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-013",
+        "name": "Kurai the Volcano",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 5,
+        "attack": 3,
+        "hp": 3,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["Once/Turn"]
+        },
+        "traits": ["Crimsondrift", "Pyreskin"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-013_Kurai-the-Volcano_E_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-014",
+        "name": "Scorchveil Shinobi, Suzuka",
+        "category": "Entity",
+        "element": "Fire",
+        "cost": 6,
+        "attack": 3,
+        "hp": 3,
+        "gate": 1,
+        "mechanics": {
+            "keywords": ["Charge", "On Play"]
+        },
+        "traits": ["Blazerker", "Ninja"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-014_Scorchveil-Shinobi-Suzuka_E_SR_die.jpg",
+                rarity: "SR",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-015",
+        "name": "Detonation Pact",
+        "category": "Spell",
+        "element": "Fire",
+        "cost": 1,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Scorchweaver"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-015_Detonation-Pact_S_C_die.jpg",
+                rarity: "C",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-016",
+        "name": "Collateral Burst",
+        "category": "Spell",
+        "element": "Fire",
+        "cost": 2,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Pyreskin", "Scorchweaver"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-016_Collateral-Burst_S_UC_die.jpg",
+                rarity: "UC",
+                label: "Standard"
+            }
+        ],
+    },
+    {
+        "id": "STT04-017",
+        "name": "Wrath of Sinder",
+        "category": "Spell",
+        "element": "Fire",
+        "cost": 3,
+        "attack": null,
+        "hp": null,
+        "gate": null,
+        "mechanics": {
+            "keywords": ["Main"]
+        },
+        "traits": ["Blazerker"],
+        "variants": [
+            {
+                image: "https://static-content.azuki.com/tcg/card_art/S1-STT04-017_Wrath-of-Sinder_S_R_die.jpg",
+                rarity: "R",
                 label: "Standard"
             }
         ],
